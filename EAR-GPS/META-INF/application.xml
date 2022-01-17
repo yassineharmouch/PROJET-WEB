@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:application="http://xmlns.jcp.org/xml/ns/javaee" id="Application_ID" version="8">
+  <display-name>EAR-GPS</display-name>
+  <module>
+    <ejb>GPS-SERVER.jar</ejb>
+  </module>
+  <module>
+    <web>
+      <web-uri>GPS-TRACKER-WEB.war</web-uri>
+      <context-root>GPS-TRACKER-WEB</context-root>
+    </web>
+  </module>
+</application>
